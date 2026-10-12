@@ -82,44 +82,42 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 
 ## 📋 Registro de evidencias
 
-<details>
+<details open>
 <summary><b>Unidad 1 · Elaboración de algoritmos en PSeInt</b> (sesiones 1 a 13)</summary>
 
-| Sesión | Tema                                              | Qué aprendí                            |                Evidencia                 | Estado |
-| :----: | :------------------------------------------------ | :------------------------------------- | :--------------------------------------: | :----: |
-|  S01   | Lógica computacional, compilador e intérprete     | _(escribir aquí con palabras propias)_ |             [ver](UA1/S01/)              |   ⬜   |
-|  S02   | Algoritmos y pseudocódigo                         |                                        |             [ver](UA1/S02/)              |   ⬜   |
-|  S03   | Lenguajes de alto y bajo nivel                    |                                        |             [ver](UA1/S03/)              |   ⬜   |
-|  S04   | Metodología de solución de problemas              |                                        |             [ver](UA1/S04/)              |   ⬜   |
-|  S05   | Entrada, proceso, salida y tipos de datos         |                                        |             [ver](UA1/S05/)              |   ⬜   |
-|  S06   | Constantes, variables y expresiones               |                                        |             [ver](UA1/S06/)              |   ⬜   |
-|  S07   | Contadores y acumuladores                         |                                        |             [ver](UA1/S07/)              |   ⬜   |
-|  S08   | Expresiones aritméticas, relacionales y lógicas   |                                        |             [ver](UA1/S08/)              |   ⬜   |
-|  S09   | Operadores aritméticos y prioridad                |                                        |             [ver](UA1/S09/)              |   ⬜   |
-|  S10   | Decisión simple y doble                           |                                        |             [ver](UA1/S10/)              |   ⬜   |
-|  S11   | Operadores lógicos, decisiones compuestas y Según |                                        |             [ver](UA1/S11/)              |   ⬜   |
-|  S12   | Ciclos, validación de datos e informe             |                                        |             [ver](UA1/S12/)              |   ⬜   |
-|  S13   | **Actividad de comprobación 1**                   |                                        | [ver](actividades/A1_Analisis_problema/) |   ⬜   |
+| Sesión | Tema | Qué aprendí | Evidencia | Estado |
+|:---:|:---|:---|:---:|:---:|
+|  S01 | Lógica computacional, compilador e intérprete | Comprendí conceptos básicos de la lógica computacional y la diferencia entre un compilador y un intérprete. | [Ver](UA1/S01/) | ⬜ |
+|  S02 | Algoritmos y pseudocódigo | Aprendí que un algoritmo organiza los pasos necesarios para resolver un problema y que el pseudocódigo permite representarlos. | [Ver](UA1/S02/) | ⬜ |
+|  S03 | Lenguajes de alto y bajo nivel | Reconocí algunas diferencias entre los lenguajes de programación de alto y bajo nivel. | [Ver](UA1/S03/) | ⬜ |
+|  S04 | Metodología de solución de problemas | Practiqué cómo analizar un problema y organizar una solución paso a paso. | [Ver](UA1/S04/) | ⬜ |
+|  S05 | Entrada, proceso, salida y tipos de datos | Aprendí a identificar los datos que ingresan, los procesos que se realizan y los resultados que se muestran. | [Ver](UA1/S05/) | ⬜ |
+|  S06 | Constantes, variables y expresiones | Comprendí para qué sirven las variables y las constantes dentro de un algoritmo. | [Ver](UA1/S06/) | ⬜ |
+|  S07 | Contadores y acumuladores | Practiqué cómo llevar conteos y sumar valores durante la ejecución de un algoritmo. | [Ver](UA1/S07/) | ⬜ |
+|  S08 | Expresiones aritméticas, relacionales y lógicas | Aprendí a utilizar expresiones para realizar cálculos y evaluar condiciones. | [Ver](UA1/S08/) | ⬜ |
+|  S09 | Operadores aritméticos y prioridad | Reforcé el uso de los operadores y el orden en que se realizan las operaciones. | [Ver](UA1/S09/) | ⬜ |
+|  S10 | Decisión simple y doble | Practiqué cómo hacer que un algoritmo tome decisiones según una condición. | [Ver](UA1/S10/) | ⬜ |
+|  S11 | Operadores lógicos, decisiones compuestas y Según | Aprendí a combinar condiciones y a utilizar estructuras de selección según el problema. | [Ver](UA1/S11/) | ⬜ |
+|  S12 | Ciclos, validación de datos e informe | Practiqué el uso de ciclos y la validación de datos para controlar la ejecución de un algoritmo. | [Ver](UA1/S12/) | ⬜ |
+|  S13 | **Actividad de comprobación 1** | Apliqué los conocimientos de la unidad para analizar y resolver un problema. | [Ver](actividades/A1_Analisis_problema/) | ⬜ |
 
 </details>
 
 <details open>
 <summary><b>Unidad 2 · Programación estructurada en C</b> (sesiones 14 a 24)</summary>
 
-| Sesión  | Tema                                         | Qué aprendí |                  Evidencia                   | Estado |
-| :-----: | :------------------------------------------- | :---------- | :------------------------------------------: | :----: |
-|   S14   | Sistemas numéricos                           |             |               [ver](UA2/S14/)                |   ⬜   |
-|   S15   | Control de versiones con git y GitHub        |             |               [ver](UA2/S15/)                |   ⬜   |
-|   S16   | Formato de un programa en C y compilación    |             |               [ver](UA2/S16/)                |   ⬜   |
-|   S17   | Variables, constantes y entrada/salida       |             |               [ver](UA2/S17/)                |   ⬜   |
-|   S18   | Operadores, casting e if … else              |             |               [ver](UA2/S18/)                |   ⬜   |
+| Sesión | Tema | Qué aprendí | Evidencia | Estado |
+|:---:|:---|:---|:---:|:---:|
+|   S14   | Sistemas numéricos | Conocí los sistemas numéricos utilizados en informática y su importancia. | [Ver](UA2/S14/) | ⬜ |
+|   S15   | Control de versiones con Git y GitHub | Aprendí a registrar cambios y mantener los archivos del proyecto organizados mediante Git y GitHub. | [Ver](UA2/S15/) | ⬜ |
+|   S16   | Formato de un programa en C y compilación | Reconocí la estructura básica de un programa en C y practiqué el proceso de compilación. | [Ver](UA2/S16/) | ⬜ |
+|   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/) | ⬜ |
+|   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/) | ⬜ |
 |   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
 |   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
 | S23–S24 | **Actividad de comprobación 2**              |             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
-
-</details>
 
 <details>
 <summary><b>Unidad 3 · Estructuras de datos</b></summary>
@@ -207,7 +205,7 @@ _(Completar conforme avanza el módulo. Ejemplos de lo que corresponde anotar aq
 
 <div align="center">
 
-**Nombre Completo** · @usuario-de-github
+**Valery Shanay Moara Acevedo** · @Valery366gif
 
 Portafolio elaborado durante el módulo CSTI12010 · Instituto Nacional de Aprendizaje · 2026
 
