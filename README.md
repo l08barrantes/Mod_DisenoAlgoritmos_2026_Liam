@@ -113,7 +113,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S16   | Formato de un programa en C y compilación | Reconocí la estructura básica de un programa en C y practiqué el proceso de compilación. | [Ver](UA2/S16/) | ⬜ |
 |   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/) | ⬜ |
 |   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/) | ⬜ |
-|   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
+|   S19   | Ciclos y switch| Aprendí a elegir el ciclo correcto (while, do … while o for), a validar datos y a armar menús con switch dentro de un ciclo, sin olvidar los break.|               [ver](UA2/S19/)                |   ⬜   |
 |   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
