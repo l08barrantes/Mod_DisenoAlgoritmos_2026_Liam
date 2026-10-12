@@ -8,10 +8,10 @@ int main(void) {
     printf("Anio: ");
     scanf("%d", &anio);
 
-    // Proceso: aplica la regla del año bisiesto
+    // Proceso
     esBisiesto = ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0));
 
-    // Salida: utiliza el operador ternario ?: para imprimir el mensaje correspondiente
+    // Salida
     printf("%d %s es bisiesto\n", anio, esBisiesto ? "" : "no");
 
     return 0;
