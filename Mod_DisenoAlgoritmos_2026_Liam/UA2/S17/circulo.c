@@ -1,6 +1,8 @@
 //circulo.c trabaja con la costante de PI
 #include <stdio.h>
+
 #define PI 3.14159265358979  //Constante simbolica: el procesodor cambia PI por el nuemero
+
 int main(void){
     //Constante de cadena: no puede cambiar durante el programa
     const char UNIDAD[] = "cm";
@@ -22,4 +24,3 @@ int main(void){
     printf("Perimetro: %.2f %s\n", perimetro, UNIDAD);
     return 0;
 }
-
