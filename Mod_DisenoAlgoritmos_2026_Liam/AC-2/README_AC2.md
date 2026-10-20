@@ -12,7 +12,7 @@
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
+![Ejecución](captura_p1.png)
 
 ## Problema 2 · Calificaciones (AC2_P2_Calificaciones.c)
 
@@ -22,18 +22,23 @@
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
+![Ejecución](captura_p2.png)
 
 ## Problema 3 · Compras (AC2_P3_Compras.c)
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |---|---|---|---|
-|  |  |  |  |
+| - **Nombre del cliente**: cadena de texto (`char[]`).<br>- **Datos por producto**: Nombre (`char[]`), precio unitario (`float`) y cantidad (`int`).<br>- **Respuesta de continuidad**: Carácter (`S` / `N`).[cite: 4] | 1. Leer el nombre del cliente.<br>2. Mediante un bucle `while`, capturar hasta 10 productos guardándolos en arreglos paralelos (nombres, precios y cantidades).<br>3. Validar con `do-while` que el precio y la cantidad de cada producto sean positivos ($> 0$).<br>4. Calcular el subtotal por producto (`precio * cantidad`) y acumularlo en el subtotal general.<br>5. Preguntar si se desea agregar otro producto validando solo las opciones `S` o `N` (mayúscula o minúscula).<br>6. Determinar el porcentaje de descuento sobre el subtotal acumulado:<br>&nbsp;&nbsp;- $<$ 100: 0%<br>&nbsp;&nbsp;- 100 a $<$ 500: 5%<br>&nbsp;&nbsp;- 500 a 1000: 10%<br>&nbsp;&nbsp;- $>$ 1000: 15%<br>7. Calcular el total con descuento y sobre este aplicar el 13% de impuesto.<br>8. Mostrar el desglose de los productos y los totales consolidados.[cite: 4] | Factura detallada con:<br>- Nombre del cliente.<br>- Lista detallada de productos (nombre, precio, cantidad y subtotal).<br>- Cantidad de productos registrados.<br>- Subtotal acumulado.<br>- Monto y porcentaje de descuento.<br>- Total con descuento.<br>- Monto del impuesto (13%).<br>- Total a pagar final.[cite: 4] | - Máximo 10 productos por compra.<br>- Precios y cantidades deben ser estrictamente mayores que 0.<br>- La respuesta para agregar otro producto solo acepta los caracteres 'S', 's', 'N' o 'n'.[cite: 4] |
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
+![Ejecución](captura_p3.png)
 
 ## Conclusión
 
 (Qué aprendí y qué fue lo más difícil de pasar de PSeInt a C.)
+
+El paso de PSeInt a C representa una transición clave hacia el control explícito sobre la memoria y los tipos de datos. Durante el desarrollo de estos programas se aprendió a:
+1. **Manejar arreglos y cadenas de caracteres:** A diferencia de PSeInt, en C las cadenas son arreglos de caracteres que requieren funciones específicas de `<string.h>` como `strcpy` para copias, `strlen` para medir longitudes y `strcspn` para remover saltos de línea al usar `fgets`[cite: 1, 3, 6].
+2. **Gestionar el búfer de entrada:** La mayor dificultad consistió en limpiar correctamente el búfer de entrada (usando `getchar()`) entre lecturas numéricas con `scanf` y lecturas de texto con `fgets`, evitando que el salto de línea pendiente omitiera la entrada del usuario[cite: 4, 6].
+3. **Formatear salidas numéricas:** Se dominó el uso de especificadores de formato en `printf` para alinear columnas y mostrar montos monetarios fijados exactamente a dos decimales (`%.2f`)[cite: 2, 6].
