@@ -18,7 +18,7 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |---|---|---|---|
-|  |  |  |  |
+| - **Nombre del estudiante**: cadena de texto (`char[]`).<br>- **Tres calificaciones**: números flotantes (`float`) en un arreglo de tamaño 3.[cite: 3] | 1. Solicitar el nombre completo del estudiante.<br>2. Mediante un bucle `for` y validaciones `do-while`, solicitar y almacenar 3 calificaciones asegurando que se encuentren en el rango de 0 a 100.<br>3. Recorrer el arreglo para sumar las notas, calcular el promedio (`suma / 3`) y determinar la calificación más alta.<br>4. Evaluar la condición final mediante condicionales:<br>&nbsp;&nbsp;- Promedio $\ge$ 70: "APROBADO"<br>&nbsp;&nbsp;- Promedio entre 60 y 69.9: "EN RIESGO"<br>&nbsp;&nbsp;- Promedio $<$ 60: "NO APROBADO"<br>5. Asignar el texto correspondiente a la variable condición mediante `strcpy`.[cite: 3] | Reporte de resultados que incluye:<br>- Nombre del estudiante.<br>- Las 3 calificaciones individuales.<br>- Promedio final (con 2 decimales).<br>- Calificación más alta.<br>- Condición del estudiante (APROBADO / EN RIESGO / NO APROBADO).[cite: 3] | - Las calificaciones deben estar estrictamente entre 0 y 100; cualquier otro valor es rechazado.<br>- Se evalúa una cantidad fija de 3 calificaciones por estudiante.[cite: 3] |
 
 **Ejecución con los datos del ejemplo:**
 

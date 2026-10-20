@@ -1,24 +1,24 @@
 /*ESTE DOCUMENTO FORMA PARTE DE LA AC-2 LLAMADO NOMINA  */
 #include <stdio.h>
 #include <string.h>
-
-#define TASA_CAJA 0.095      /* tasa CAJA */
-#define TASA_IESS 0.025      /* tasa IESS */
-#define TASA_RENTA 0.10      /* tasa impuesto sobre la renta */
-#define LIMITE_RENTA 800.0   /* salario desde el que se cobra renta */
-#define MAX_NOMBRE 100       /* tamano del nombre */
+/*definicion de variables*/
+#define TASA_CAJA 0.095      
+#define TASA_IESS 0.025      
+#define TASA_RENTA 0.10      
+#define LIMITE_RENTA 800.0  
+#define MAX_NOMBRE 100      
 
 int main(void) {
-    char nombre[MAX_NOMBRE]; /* nombre del empleado */
-    double bruto;            /* salario bruto */
-    double caja, iess;       /* descuentos fijos */
-    double renta = 0.0;      /* impuesto de renta */
-    double neto;             /* salario neto */
-    int leidos;              /* resultado de scanf */
-    int c;                   /* para limpiar el buffer */
+    char nombre[MAX_NOMBRE]; 
+    double bruto;           
+    double caja, iess;       
+    double renta = 0.0;     
+    double neto;             
+    int leidos;             
+    int c;                  
 
     printf("=== Calculo de nomina ===\n");
-
+/* datos del empleado*/
     do {
         printf("Nombre del empleado: ");
         if (fgets(nombre, sizeof(nombre), stdin) == NULL) {
@@ -29,7 +29,7 @@ int main(void) {
             printf("El nombre no puede estar vacio.\n");
         }
     } while (strlen(nombre) == 0);
-
+/*solicitud del monto bruto*/
     do {
         printf("Salario bruto: ");
         leidos = scanf("%lf", &bruto);
